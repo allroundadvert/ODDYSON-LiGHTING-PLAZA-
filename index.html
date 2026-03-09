@@ -3,187 +3,71 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>ODDYSON LIGHTING PLAZA</title>
 
 <style>
 
-:root{
---gold:#d4af37;
-}
-
 body{
+font-family: Arial, sans-serif;
 margin:0;
-font-family:Arial, Helvetica, sans-serif;
-background:#000;
-color:#fff;
-}
-
-/* INFO */
-
-.info{
+background:#f5f5f5;
 text-align:center;
-padding:15px 15px 5px 15px;
 }
 
-.info h2{
-color:var(--gold);
-margin-bottom:8px;
-}
-
-/* MOVING IMAGES */
-
-.slider{
-overflow:hidden;
+.header img{
 width:100%;
-margin-top:10px;
-}
-
-.slide-track{
-display:flex;
-width:200%;
-animation:scroll 6s linear infinite;
-}
-
-.slide-track img{
-width:320px;
-height:180px;
+max-height:420px;
 object-fit:cover;
+}
+
+h1{
+color:#111;
+margin-top:20px;
+}
+
+.description{
+padding:15px;
+font-size:18px;
+}
+
+.buttons{
+margin:20px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 25px;
 margin:10px;
-border:2px solid var(--gold);
-border-radius:6px;
+font-size:18px;
+text-decoration:none;
+color:white;
+border-radius:8px;
 }
 
-/* FAST MOVEMENT */
-
-@keyframes scroll{
-
-0%{
-transform:translateX(-10%);
+.whatsapp{
+background:#25D366;
 }
 
-100%{
-transform:translateX(-50%);
+.call{
+background:#007BFF;
 }
 
+.address{
+margin:20px;
+font-size:18px;
 }
-
-/* PRODUCT GRID */
 
 .gallery{
-max-width:1100px;
-margin:25px auto;
 display:grid;
-grid-template-columns:repeat(2,1fr);
-gap:14px;
-padding:0 10px;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:10px;
+padding:15px;
 }
 
 .gallery img{
 width:100%;
-height:190px;
-object-fit:cover;
-border-radius:6px;
-border:2px solid var(--gold);
-box-shadow:0 0 10px rgba(212,175,55,0.5);
-}
-
-/* FORM */
-
-.form-box{
-max-width:850px;
-margin:40px auto;
-padding:25px;
-background:#050505;
-border:1px solid var(--gold);
-}
-
-.form-box h2{
-text-align:center;
-color:var(--gold);
-}
-
-label{
-display:block;
-margin-top:14px;
-font-weight:bold;
-}
-
-input,select,textarea{
-width:100%;
-padding:10px;
-margin-top:5px;
-background:#020617;
-border:1px solid #333;
-color:#fff;
-}
-
-textarea{
-height:100px;
-}
-
-button{
-width:100%;
-margin-top:20px;
-padding:15px;
-background:var(--gold);
-border:none;
-font-weight:bold;
-cursor:pointer;
-}
-
-/* FLOAT BUTTONS */
-
-.whatsapp{
-position:fixed;
-right:15px;
-bottom:140px;
-background:#25d366;
-color:white;
-padding:14px 18px;
-border-radius:40px;
-text-decoration:none;
-font-weight:bold;
-}
-
-.call{
-position:fixed;
-right:15px;
-bottom:95px;
-background:#2563eb;
-color:white;
-padding:14px 18px;
-border-radius:40px;
-text-decoration:none;
-font-weight:bold;
-}
-
-.tiktok{
-position:fixed;
-right:15px;
-bottom:50px;
-background:#000;
-color:white;
-padding:14px 18px;
-border-radius:40px;
-text-decoration:none;
-}
-
-.facebook{
-position:fixed;
-right:15px;
-bottom:5px;
-background:#1877f2;
-color:white;
-padding:14px 18px;
-border-radius:40px;
-text-decoration:none;
-}
-
-footer{
-text-align:center;
-padding:15px;
-background:#000;
-color:#aaa;
+border-radius:8px;
 }
 
 </style>
@@ -191,123 +75,71 @@ color:#aaa;
 
 <body>
 
-<!-- INFO -->
+<!-- TOP HEADER IMAGE -->
+<div class="header">
+<img src="https://raw.githubusercontent.com/allroundadvert/ODDYSON-LiGHTING-PLAZA-/7f106f8304a82527a4dcb53d0b5e2fd51d8af58e/1773092543328.png">
+</div>
 
-<div class="info">
+<h1>ODDYSON LIGHTING PLAZA</h1>
 
-<h2>ODDYSON LIGHTING PLAZA</h2>
+<div class="description">
+Giant in all kinds of electrical materials such as conduit and surface materials, chandeliers, wall brackets and more.
+</div>
 
-<p>Giant in all kinds of electrical materials such as conduit and surface materials, chandeliers, wall brackets, and more.</p>
+<div class="buttons">
 
-<p><b>Address:</b> Okpanam City Gate Chiroms Materials Plaza, Asaba.</p>
+<a class="btn whatsapp" href="https://wa.me/2347034667306">
+Chat on WhatsApp
+</a>
+
+<a class="btn call" href="tel:07034667306">
+Call Now
+</a>
 
 </div>
 
-<!-- MOVING IMAGES -->
-
-<div class="slider">
-
-<div class="slide-track">
-
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(17).jpeg">
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(18).jpeg">
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(17).jpeg">
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(18).jpeg">
-
+<div class="address">
+<b>Address</b><br><br>
+Okpanam City Gate<br>
+Chiroms Materials Plaza<br>
+Asaba
 </div>
 
-</div>
-
-<!-- PRODUCT IMAGES -->
-
+<!-- GALLERY -->
 <div class="gallery">
 
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(19).jpeg">
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(21).jpeg">
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(22).jpeg">
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(23).jpeg">
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(24).jpeg">
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(25).jpeg">
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(26).jpeg">
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(27).jpeg">
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(28).jpeg">
-<img src="https://raw.githubusercontent.com/allroundadvert/DE-GREAT-DOVE-GLOBAL-IMPEX-/23de5576b13170552ffe32be4248d8775625ca04/images%20(29).jpeg">
+<img src="https://picsum.photos/400?1">
+<img src="https://picsum.photos/400?2">
+<img src="https://picsum.photos/400?3">
+<img src="https://picsum.photos/400?4">
+<img src="https://picsum.photos/400?5">
+<img src="https://picsum.photos/400?6">
+<img src="https://picsum.photos/400?7">
+<img src="https://picsum.photos/400?8">
+<img src="https://picsum.photos/400?9">
+<img src="https://picsum.photos/400?10">
+<img src="https://picsum.photos/400?11">
+<img src="https://picsum.photos/400?12">
+<img src="https://picsum.photos/400?13">
+<img src="https://picsum.photos/400?14">
+<img src="https://picsum.photos/400?15">
+<img src="https://picsum.photos/400?16">
+<img src="https://picsum.photos/400?17">
+<img src="https://picsum.photos/400?18">
+<img src="https://picsum.photos/400?19">
+<img src="https://picsum.photos/400?20">
+<img src="https://picsum.photos/400?21">
+<img src="https://picsum.photos/400?22">
+<img src="https://picsum.photos/400?23">
+<img src="https://picsum.photos/400?24">
+<img src="https://picsum.photos/400?25">
+<img src="https://picsum.photos/400?26">
+<img src="https://picsum.photos/400?27">
+<img src="https://picsum.photos/400?28">
+<img src="https://picsum.photos/400?29">
+<img src="https://picsum.photos/400?30">
 
 </div>
-
-<!-- FORM -->
-
-<div class="form-box">
-
-<h2>Place Your Orders / Services</h2>
-
-<form onsubmit="sendWhatsApp();return false;">
-
-<label>Name</label>
-<input id="name">
-
-<label>Phone</label>
-<input id="phone">
-
-<label>Customer Location</label>
-<input id="location">
-
-<label>Select Product</label>
-<select id="product">
-<option>Chandelier</option>
-<option>Wall Bracket</option>
-<option>Switches</option>
-<option>Sockets</option>
-<option>Pipes</option>
-<option>Cables</option>
-<option>Street Light</option>
-<option>Conduit Materials</option>
-</select>
-
-<label>Home Delivery</label>
-<select id="delivery">
-<option>Yes</option>
-<option>No</option>
-</select>
-
-<label>More Specifications</label>
-<textarea id="specs"></textarea>
-
-<button type="submit">Submit to WhatsApp</button>
-
-</form>
-
-</div>
-
-<footer>
-© ODDYSON LIGHTING PLAZA
-</footer>
-
-<a class="whatsapp" href="https://wa.me/2347034667306">WhatsApp</a>
-
-<a class="call" href="tel:07034667306">Call</a>
-
-<a class="tiktok" href="#">TikTok</a>
-
-<a class="facebook" href="#">Facebook</a>
-
-<script>
-
-function sendWhatsApp(){
-
-let msg="Customer Order:%0A";
-msg+="Name: "+document.getElementById("name").value+"%0A";
-msg+="Phone: "+document.getElementById("phone").value+"%0A";
-msg+="Location: "+document.getElementById("location").value+"%0A";
-msg+="Product: "+document.getElementById("product").value+"%0A";
-msg+="Delivery: "+document.getElementById("delivery").value+"%0A";
-msg+="Specs: "+document.getElementById("specs").value;
-
-window.open("https://wa.me/2347034667306?text="+msg);
-
-}
-
-</script>
 
 </body>
 </html>
